@@ -6,7 +6,7 @@ subtitle: Master student in Financial Engineering and Fintech at Nanjing Univers
 
 profile:
   align: right
-  image: pic_image.jpg
+  image: pic_image.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <div style="font-size: medium;  text-align: center; font-family: 'Arial', sans-serif; color: darkblue">  Per aspera ad astra</div>
