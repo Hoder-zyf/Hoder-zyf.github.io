@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Master student at Nanjing University, pursuing ad degree on Financial Engineering and Fintech.<br> Bachelor's degree on Computer Science and Technology (FinTech) at Nanjing University.
+subtitle: Master student in Financial Engineering and Fintech at Nanjing University.<br> Bachelor's degree in Computer Science and Technology (FinTech) at Nanjing University.
 
 profile:
   align: right
@@ -14,8 +14,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hello, this is Yifei Zhang. I earned my bachelor's degree in Computer Science and Technology (FinTech) at [Nanjing University](https://www.nju.edu.cn/en) of [Department of Computer Science and Technology](https://cs.nju.edu.cn/mainm.htm) . It was a double degree program and I am honored to be admitted to this program. Currently, I am pursuing a master's degree at  [School Management & Eningnnering](https://sme.nju.edu.cn/mainm.htm) at [Nanjing University](https://www.nju.edu.cn/en), specializing in Financial Engineering and FinTech, advised by [Prof. Honghai Yu](https://sme.nju.edu.cn/yhh/list.htm).
+Hello, my name is  Yifei Zhang. I earned my bachelor's degree in Computer Science and Technology (FinTech) at [Nanjing University](https://www.nju.edu.cn/en) from [The Department of Computer Science and Technology](https://cs.nju.edu.cn/mainm.htm) . It was a double degree program and I am honored to have been admitted to this program. 
 
+Currently, I am pursuing a master's degree at  [School of Management & Eningnnering](https://sme.nju.edu.cn/mainm.htm) at [Nanjing University](https://www.nju.edu.cn/en), specializing in Financial Engineering and FinTech, under the guidance of [Prof. Honghai Yu](https://sme.nju.edu.cn/yhh/list.htm).
 
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am conducting financial research on "Social Media" , focusing on two main platforms: [Xueqiu](https://xueqiu.com/) and [Douyin](https://www.douyin.com/). Additionally, I am interested in Financial Multimodal Large Language Models and I am working in collaboration with [Prof. Benyou Wang](https://wabyking.github.io/old.html) and [The Fin AI](https://sites.google.com/view/the-fin-ai/home?authuser=0).
