@@ -8,6 +8,8 @@ profile:
   align: right
   image: pic_zyf.jpg
   image_circular: false # crops the image to make it circular
+  more_info:>
+    <div style="font-size: medium;  text-align: center; font-family: 'Arial', sans-serif; color: darkblue">  Per aspera ad astra</div>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
