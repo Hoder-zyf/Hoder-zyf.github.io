@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: A <a href='https://www.nju.edu.cn/en/'> student with a bachelor's degree on Computer Science and Technology (FinTech).
+subtitle: Master student at Nanjing University, pursuing ad degree on Financial Engineering and Fintech with a bachelor degree on Computer Science and Technology (FinTech) at Nanjing University.
 
 profile:
   align: right
