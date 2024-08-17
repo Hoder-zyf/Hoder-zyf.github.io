@@ -216,6 +216,10 @@
     {% capture link %}https://www.zotero.org/{{ site.zotero_username }}{% endcapture %}
     {% assign sameaslinks = sameaslinks | push: link %}
   {% endif %}
+  {% if site.qq %}
+    {% capture link %}tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin={{ site.qq }}&website=www.oicqzone.com/{% endcapture %}
+    {% assign sameaslinks = sameaslinks | push: link %}
+  {% endif %}
   {% if sameaslinks != blank %}
     {% assign sameaslinks = sameaslinks | split: '' %}
   {% endif %}

@@ -520,6 +520,16 @@
             },
           },
         {%- endif -%}
+        {%- if site.qq -%}
+          {
+            id: 'socials-qq',
+            title: 'QQ',
+            section: 'Socials',
+            handler: () => {
+              window.open("tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin={{ site.qq }}&website=www.oicqzone.com/", "_blank");
+            },
+          },
+        {%- endif -%}
         {%- if site.rss_icon -%}
           {
             id: 'socials-rss',
