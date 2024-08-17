@@ -10,6 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <div style="font-size: medium;  text-align: center; font-family: 'Arial', sans-serif; color: darkblue">  Per aspera ad astra</div>
+    <div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif; color: darkblue">
+NetEase Cloud Music: [牛皮哄哄的升维打击](https://y.music.163.com/m/playlist?id=2066385181&userid=1347027740&creatorId=1347027740)
+</div>
     
 
 news: true # includes a list of news items
