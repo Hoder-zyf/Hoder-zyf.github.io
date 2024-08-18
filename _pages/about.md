@@ -24,5 +24,5 @@ Currently, I am pursuing a master's degree at [School of Management & Engineerin
 
 I am conducting financial research on "Social Media," focusing on two main platforms: [Xueqiu](https://xueqiu.com/) and [Douyin](https://www.douyin.com/).  Additionally, I am interested in Financial Multimodal Large Language Models and I am working in collaboration with [Prof. Benyou Wang](https://wabyking.github.io/old.html) and [The Fin AI](https://sites.google.com/view/the-fin-ai/home?authuser=0). 🤖
 
-You can find more about me here : [Resume](https://github.com/Hoder-zyf/Hoder-zyf.github.io/blob/master/assets/pdf/en-cv-zyf.pdf)
+<div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif; color: darkblue">You can find more about me here:<a href="https://hoder-zyf.github.io/assets/pdf/en-cv-zyf.pdf" style="color: darkblue;"> English Resume</a></div>
 
