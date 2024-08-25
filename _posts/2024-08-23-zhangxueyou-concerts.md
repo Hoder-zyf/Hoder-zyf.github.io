@@ -20,7 +20,7 @@ images:
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/5.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/6.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/7.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/8.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
+ 
 
 </swiper-container>
 
