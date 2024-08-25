@@ -6,10 +6,11 @@ tags: life-fun
 categories: life
 thumbnail: assets/img/zhangxueyou/0.jpg
 images:
-  slider:true
+  slider: true
 ---
 
 ## Image Slider
+
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/0.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/1.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
@@ -19,7 +20,7 @@ images:
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/5.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/6.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
   <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/7.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/7.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/8.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
 
 </swiper-container>
 
