@@ -12,15 +12,15 @@ images:
 ## Image Slider
 
 <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true">
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/0.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/1.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/2.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/3.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/4.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/5.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/6.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/7.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
-  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/8.jpg" class="img-fluid rounded z-depth-1" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/0.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/1.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/2.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/3.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/4.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/5.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/6.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/7.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
+  <swiper-slide>{% include figure.liquid loading="eager" path="assets/img/zhangxueyou/8.jpg" class="img-fluid rounded z-depth-1" style="object-fit: cover; width: 100%; height: 100%;" %}</swiper-slide>
 
 </swiper-container>
 
@@ -81,5 +81,5 @@ In the end, it wasn't just a concert; it was a celebration of music, of life, an
 ## My favourite song of Jacky Cheung
 My favorite song of Jacky Cheung is "三分拍" (Three-Quarter Time). The song's unique waltz rhythm and emotionally rich lyrics perfectly capture the push and pull of relationships, where love is both a dance and a journey. Jacky Cheung's heartfelt delivery and the song's introspective tone resonate deeply with me, making it a timeless piece that reflects the complexities of love, the desire for freedom, and the beauty of finding balance in a relationship. For me, "三分拍" is not just a song, but a reminder of the delicate dance that love often requires.
 
-<div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif; color: darkblue">You can listen to the song here:<a href=" http://163cn.tv/wKI7OSt" style="color: darkblue;">三分拍</a></div>
+<div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif; color: darkblue">You can listen to the song here:<a href="http://163cn.tv/wKI7OSt" style="color: darkblue;">三分拍</a></div>
 
