@@ -3,19 +3,16 @@
 
 @string{aps = {American Physical Society,}}
 
-@misc{finllava,
-  author       = {Yifei Zhang and Yuzhe Yang},
-  title        = {FinLLaVA},
-  year         = {2024},
-  note         = {Open Multimodal Large Language Models for Financial Applications},
-  preview={finllava.png},
-  pdf = {finllava.pdf},
-  selected={true},
-  website={https://www.thefin.ai/home},
-  abstract     = {While large language models (LLMs) have driven advancements in
-the financial area, they often lack sufficient financial knowledge and analytical capability due to their general-domain training corpora. Financial large language models (Financial LLMs) seek to enhance finance by providing domain-specific knowledge and analytical capabilities beyond general-domain training. Yet, they struggle
-with downstream tasks and handling multi-modal inputs like tabular and time series data, limiting their effectiveness in critical financial applications such as trading. In this paper, we introduce OpenFinLLMs, a series of Financial LLMs. We start with developing FinLLaMA, pre-trained on a 52 billion token financial corpus covering
-text, tables, and time-series data, to embed comprehensive financial knowledge. We then instruction fine-tune it with 573K financial instructions to create FinLLaMA-instruct, enhancing task performance and instruction following. Finally, we present FinLLaVA,
-a multimodal LLM based on FinLLaMA, trained using 1,430K multimodal image-text instructions to handle complex financial data types, including tables and charts. We conduct extensive evaluations of FinLLaMA, FinLLaMA-instruct, and FinLLaVA across various tasks and settings. FinLLaMA is tested on 19 datasets in the zero-shot setting and 4 datasets in the few-shot setting, demonstrating superior performance over LLaMA3-8B, LLaMA3.1-8B, and BloombergGPT. FinLLaMA-instruct is evaluated on 15 datasets, achieving higher average performance than GPT-4 and other financial LLMs. FinLLaVA is assessed on 4 multimodal tasks, showing effectiveness in understanding tables and charts. Additionally, we evaluate the trading performance of FinLLaMA using an agent framework across multiple assets, where it achieves impressive Sharpe Ratios, underscoring its strong capability in financial applications.
-Our models and evaluation benchmarks will be continually maintained to foster innovations in academia and industry.}
+@article{xie2024openfinllmsopenmultimodallarge,
+      title={Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications}, 
+      journal={arXiv preprint},
+      year={2024},
+      selected={true},
+      pdf={https://arxiv.org/pdf/2408.11878},
+      html={https://arxiv.org/abs/2408.11878}, 
+      author={Qianqian Xie and Dong Li and Mengxi Xiao and Zihao Jiang and Ruoyu Xiang and Xiao Zhang and Zhengyu Chen and Yueru He and Weiguang Han and Yuzhe Yang and Shunian Chen and Yifei Zhang and Lihang Shen and Daniel Kim and Zhiwei Liu and Zheheng Luo and Yangyang Yu and Yupeng Cao and Zhiyang Deng and Zhiyuan Yao and Haohang Li and Duanyu Feng and Yongfu Dai and VijayaSai Somasundaram and Peng Lu and Yilun Zhao and Yitao Long and Guojun Xiong and Kaleb Smith and Honghai Yu and Yanzhao Lai and Min Peng and Jianyun Nie and Jordan W. Suchow and Xiao-Yang Liu and Benyou Wang and Alejandro Lopez-Lira and Jimin Huang and Sophia Ananiadou},
+      abstract={Large language models (LLMs) have advanced financial applications, yet they often lack sufficient financial knowledge and struggle with tasks involving multi-modal inputs like tables and time series data. To address these limitations, we introduce Open-FinLLMs, a series of Financial LLMs. We begin with FinLLaMA, pre-trained on a 52 billion token financial corpus, incorporating text, tables, and time-series data to embed comprehensive financial knowledge. FinLLaMA is then instruction fine-tuned with 573K financial instructions, resulting in FinLLaMA-instruct, which enhances task performance. Finally, we present FinLLaVA, a multimodal LLM trained with 1.43M image-text instructions to handle complex financial data types. Extensive evaluations demonstrate FinLLaMA's superior performance over LLaMA3-8B, LLaMA3.1-8B, and BloombergGPT in both zero-shot and few-shot settings across 19 and 4 datasets, respectively. FinLLaMA-instruct outperforms GPT-4 and other Financial LLMs on 15 datasets. FinLLaVA excels in understanding tables and charts across 4 multimodal tasks. Additionally, FinLLaMA achieves impressive Sharpe Ratios in trading simulations, highlighting its robust financial application capabilities. We will continually maintain and improve our models and benchmarks to support ongoing innovation in academia and industry.},
+      note={First open-source financial multimodal LLM: FinLLaVA-8B},
+      website={https://www.thefin.ai/home},
+      preview={finllava.png},
 }
