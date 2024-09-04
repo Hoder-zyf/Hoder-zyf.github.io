@@ -300,8 +300,7 @@ jekyll-archives:
     tag: "/blog/tag/:name/"
     category: "/blog/category/:name/"
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes","life-fun"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services","life"] # these categories will be displayed on the front page of your blog
+display_tags: ["finance", "images", "research", "ideas", "code","life-fun"] # these tags will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
