@@ -1,11 +1,13 @@
 ---
 layout: post
 title: Thoughts about the next stage research
-date: 2024-09-05 0:14:13
+date: 2024-09-03 18:34:00-0400
+description: Some ideas about the next stage research
 tags: ideas finance research
+toc:
+  beginning: true
 ---
 
-# Next Stage Potential Ideas and Goals
 
 After two months as a Research Assistant at CUHKSZ, it feels like the right time to plan ahead and set goals for the next stage of my research and professional development. The following are key areas I want to focus on, including ongoing projects and new initiatives.
 
