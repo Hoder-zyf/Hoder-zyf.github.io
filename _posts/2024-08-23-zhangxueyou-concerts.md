@@ -3,7 +3,6 @@ layout: post
 title: An Unforgettable Night at Jacky Cheung's Concert
 date: 2024-08-23 23:32:13
 tags: life-fun images
-categories: life
 thumbnail: assets/img/zhangxueyou/0.jpg
 images:
   slider: true
