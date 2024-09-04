@@ -3,8 +3,6 @@ layout: post
 title: Thoughts about the next stage research
 date: 2024-09-04 17:20:13
 tags: ideas finance research
-toc:
-  beginning: true
 ---
 
 
