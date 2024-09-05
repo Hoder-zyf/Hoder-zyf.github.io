@@ -9,8 +9,8 @@ profile:
   image: pic_image.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <div style="font-size: medium;  text-align: center; font-family: 'Arial', sans-serif; color: darkblue">  Per aspera ad astra</div>
-    <div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif; color: darkblue">NetEase Cloud Music: <a href="https://y.music.163.com/m/playlist?id=2066385181&userid=1347027740&creatorId=1347027740" style="color: darkblue;">Playlist</a></div>
+    <div style="font-size: medium;  text-align: center; font-family: 'Arial', sans-serif; color: orange">  Per aspera ad astra</div>
+    <div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif; color: orange">NetEase Cloud Music: <a href="https://y.music.163.com/m/playlist?id=2066385181&userid=1347027740&creatorId=1347027740" style="color: orange;">Playlist</a></div>
     
 
 news: true # includes a list of news items
@@ -24,5 +24,5 @@ Currently, I am pursuing a master's degree at [School of Management & Engineerin
 
 I am conducting financial research on "Social Media",  focusing on two main platforms: [Xueqiu](https://xueqiu.com/) and [Douyin](https://www.douyin.com/).  Additionally, I am interested in Financial Multimodal Large Language Models and I am working in collaboration with [Prof. Benyou Wang](https://wabyking.github.io/old.html) and [The Fin AI](https://sites.google.com/view/the-fin-ai/home?authuser=0). 🤖
 
-<div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif; color: darkblue">You can find more about me here:<a href="https://hoder-zyf.github.io/assets/pdf/en-cv-zyf.pdf" style="color: darkblue;"> English Resume</a></div>
+<div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif; color: orange">You can find more about me here:<a href="https://hoder-zyf.github.io/assets/pdf/en-cv-zyf.pdf" style="color: orange"> English Resume</a></div>
 

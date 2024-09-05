@@ -19,7 +19,7 @@ Moreover, the study quantifies the market effects of this consistency by calcula
 
 &nbsp;
 
-<div style="font-size: large; text-align: center; font-family: 'Arial', sans-serif; color: darkblue">If you are interested in my undergraduate thesis, welcome to contact me through the social media on my "about" page, or you can add my wechat number through this tricky problem:</div>
+<div style="font-size: large; text-align: center; font-family: 'Arial', sans-serif; color: orange">If you are interested in my undergraduate thesis, welcome to contact me through the social media on my "about" page, or you can add my wechat number through this tricky problem:</div>
 
 &nbsp;
 
