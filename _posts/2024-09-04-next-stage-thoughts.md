@@ -4,6 +4,7 @@ title: Thoughts about the next stage research
 date: 2024-09-03 18:34:00-0400
 description: Some ideas about the next stage research
 tags: ideas finance research
+thumbnail: assets/img/magic.jpg
 toc:
   beginning: true
 ---
