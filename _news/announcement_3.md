@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:star2: Complete our own Financial MLLMs——**FinLLAVA** together with [Yuzhe Yang](https://tobyyang7.github.io/). 
+:star2: Complete our own Financial MLLMs——**FinLLAVA** and submit it to [KDD 2025](https://kdd2025.kdd.org/)
