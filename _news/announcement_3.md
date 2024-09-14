@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-08-08 15:59:00-0400
+date: 2024-09-06 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-:star2: Complete our own Financial MLLMs——**FinLLAVA** and submit it to [KDD 2025](https://kdd2025.kdd.org/)
+:star2: Begin new journey as a master student at [Nanjing University](https://www.nju.edu.cn/en)
