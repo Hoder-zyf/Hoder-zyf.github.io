@@ -12,6 +12,11 @@ layout: default
   </style>
 {% endif %}
 
+{% if page.custom_css %}
+  <!-- Custom CSS for this post -->
+  <link rel="stylesheet" href="{{ '/assets/css/' | append: page.custom_css | append: '.css' | relative_url }}">
+{% endif %}
+
 {% assign url_beginning = page.url | slice: 0, 6 %}
 
 <div class="post">
