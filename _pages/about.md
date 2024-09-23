@@ -29,7 +29,5 @@ Currently, my research focuses on:
 
 **(2) Financial (Multimodal) Large Language Models:** I am collaborating with [Prof. Benyou Wang](https://wabyking.github.io/old.html) and [The Fin AI](https://sites.google.com/view/the-fin-ai/home?authuser=0) to advance research in this area. 🤖
 
-**(3) RAG:** I am exploring the application of Retrieval-Augmented Generation (RAG) in the financial sector, such as integrating RAG with Latent Dirichlet Allocation (LDA) to enhance interpretability.
-
 <div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif; color: orange">You can find more about me here:<a href="https://hoder-zyf.github.io/assets/pdf/en-cv-zyf.pdf" style="color: orange"> English Resume</a></div>
 
