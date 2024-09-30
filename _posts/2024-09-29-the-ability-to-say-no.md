@@ -33,24 +33,28 @@ I'm still figuring this out, but here are some approaches I'm trying:
 These decisions weren't easy, but they've helped me gain clarity about my values and goals. Each "no" has been about making room for a better "yes" in the future：
 </blockquote>
 
-<div style="border: 2px solid #3498db; border-radius: 10px; padding: 15px; margin: 20px 0;">
-
-- **Declining direct PhD admission offers from two top-tier universities**
-**Reason**: Despite being selected from <strong>1/8</strong> candidates, I realized I hadn't fully considered my future career path
-<br>
-- **Turning down an internship opportunity at a <strong>multi-billion</strong> private equity firm**
-**Reason**: The role felt lacking in challenge and too similar to my previous internship experiences
-<br>
-- **Refusing a Research Assistant position with a leading scholar who has published in <strong>10+ UTDs</strong>**
-**Reason**: After being chosen from <strong>1/11</strong> applicants, I found myself burdened with many tasks beyond my expected responsibilities
-<br>
+<div style="border: 2px solid #1a5f7a; border-radius: 10px; padding: 15px; margin: 20px 0;">
+  <ul style="list-style-type: none; padding-left: 0;">
+    <li>
+      <span style="color: #1a5f7a;">1. Declining direct PhD admission offers from <strong>two top-tier universities.</strong></span><br>
+      <strong>Reason</strong>: Despite being selected from <strong>1/8</strong> candidates, I realized I hadn't fully considered my future career path.
+    </li>
+    <br>
+    <li>
+      <span style="color: #1a5f7a;">2. Turning down an internship opportunity at a <strong>multi-billion</strong> private equity firm.</span><br>
+      <strong>Reason</strong>: The role felt lacking in challenge and too similar to my previous internship experiences.
+    </li>
+    <br>
+    <li>
+      <span style="color: #1a5f7a;">3. Refusing a Research Assistant position with a leading scholar who has published in <strong>10+ UTDs.</strong></span><br>
+      <strong>Reason</strong>: After being chosen from <strong>1/11</strong> applicants, I found myself burdened with many tasks beyond my expected responsibilities.
+    </li>
+  </ul>
 </div>
 
 
 
-<div style="font-family: 'Courier New', Courier, monospace; font-style: italic; background-color: #f0f0f0; padding: 15px; border-left: 5px solid #3498db;color:#333">
-I'm learning that every "no" might open the door for a more suitable "yes" in the future. As a student, developing the ability to say "no" seems like an important part of personal growth.
-</div>
+
 
 &nbsp;
 
