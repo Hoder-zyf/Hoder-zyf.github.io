@@ -25,9 +25,10 @@ I am now pursuing a master's degree at [School of Management & Engineering](http
 
 Currently, my research focuses on:
 
-**(1) Social Media:** I am particularly interested in analyzing user behavior and sentiment on platforms like [Xueqiu](https://xueqiu.com/) and [Douyin](https://www.douyin.com/).
+**(1) Behavioral Finance:** I am particularly interested in studying how human behavior and psychology influence investment decisions, especially in the context of online social media platforms like [Xueqiu](https://xueqiu.com/) and [Douyin](https://www.douyin.com/). This includes analyzing investor sentiment, information diffusion, and decision-making patterns in financial markets.
 
 **(2) Financial (Multimodal) Large Language Models:** I am collaborating with [Prof. Benyou Wang](https://wabyking.github.io/old.html) and [The Fin AI](https://sites.google.com/view/the-fin-ai/home?authuser=0) to advance research in this area. 🤖
+
 
 <div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif; color: orange">You can find more about me here:<a href="https://hoder-zyf.github.io/assets/pdf/en-cv-zyf.pdf" style="color: orange"> English Resume</a></div>
 
