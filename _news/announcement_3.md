@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:star2: Begin new journey as a master student at [Nanjing University](https://www.nju.edu.cn/en)
+:blush: Begin new journey as a master student at [Nanjing University](https://www.nju.edu.cn/en)
