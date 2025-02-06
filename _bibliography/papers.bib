@@ -16,20 +16,17 @@
       author={Qianqian Xie and Dong Li and Mengxi Xiao and Zihao Jiang and Ruoyu Xiang and Xiao Zhang and Zhengyu Chen and Yueru He and Weiguang Han and Yuzhe Yang and Shunian Chen and Yifei Zhang and Lihang Shen and Daniel Kim and Zhiwei Liu and Zheheng Luo and Yangyang Yu and Yupeng Cao and Zhiyang Deng and Zhiyuan Yao and Haohang Li and Duanyu Feng and Yongfu Dai and VijayaSai Somasundaram and Peng Lu and Yilun Zhao and Yitao Long and Guojun Xiong and Kaleb Smith and Honghai Yu and Yanzhao Lai and Min Peng and Jianyun Nie and Jordan W. Suchow and Xiao-Yang Liu and Benyou Wang and Alejandro Lopez-Lira and Jimin Huang and Sophia Ananiadou},
       abstract={Large language models (LLMs) have advanced financial applications, yet they often lack sufficient financial knowledge and struggle with tasks involving multi-modal inputs like tables and time series data. To address these limitations, we introduce Open-FinLLMs, a series of Financial LLMs. We begin with FinLLaMA, pre-trained on a 52 billion token financial corpus, incorporating text, tables, and time-series data to embed comprehensive financial knowledge. FinLLaMA is then instruction fine-tuned with 573K financial instructions, resulting in FinLLaMA-instruct, which enhances task performance. Finally, we present FinLLaVA, a multimodal LLM trained with 1.43M image-text instructions to handle complex financial data types. Extensive evaluations demonstrate FinLLaMA's superior performance over LLaMA3-8B, LLaMA3.1-8B, and BloombergGPT in both zero-shot and few-shot settings across 19 and 4 datasets, respectively. FinLLaMA-instruct outperforms GPT-4 and other Financial LLMs on 15 datasets. FinLLaVA excels in understanding tables and charts across 4 multimodal tasks. Additionally, FinLLaMA achieves impressive Sharpe Ratios in trading simulations, highlighting its robust financial application capabilities. We will continually maintain and improve our models and benchmarks to support ongoing innovation in academia and industry.},
       note={First open-source financial multimodal LLM: FinLLaVA-8B},
-      website={https://www.thefin.ai/home},
       preview={finllava.png},
-      html={https://huggingface.co/papers/2408.11878}
 }
 
 @article{yang2024ucfeusercentricfinancialexpertise,
 title={UCFE: A User-Centric Financial Expertise Benchmark for Large Language Models}, 
 author={Yuzhe Yang* and Yifei Zhang* and Yan Hu and Yilin Guo and Ruoli Gan and Yueru He and Mingcong Lei and Xiao Zhang and Haining Wang and Qianqian Xie and Jimin Huang and Honghai Yu and Benyou Wang},
 year={2024},
-journal={arXiv preprint},
+journal={NAACL Findings 2025},
 arxiv={2410.14059},
 archivePrefix={arXiv},
-primaryClass={q-fin.CP},
-url={https://arxiv.org/abs/2410.14059}, 
+primaryClass={q-fin.CP}, 
 pdf={https://arxiv.org/pdf/2410.14059},
 preview={UCFE.png},
 code={https://github.com/TobyYang7/UCFE-Benchmark},
@@ -48,4 +45,28 @@ preview={investors.png},
 abstract={A large body of literature has examined whether posts on social media propagate noise or information. In this paper, we propose that both coexist on Chinese social media platforms but can be distinguished by posters' trading behavior. Individuals may post articles on social media that do not reflect their true opinions, often for impression management purposes, resulting in inconsistency between their words and subsequent actions. Additionally, observing a poster's trading behavior prior to posting can help assess the reliability of their expressed views.},
 note={An extended version of undergraduate thesis, accepted by the 21st Annual Conference on Financial Engineering and Risk Management},
 selected={true},
+}
+
+@article{yang2025twinmarketscalablebehavioralsocialsimulation,
+title={TwinMarket: A Scalable Behavioral and SocialSimulation for Financial Markets}, 
+author={Yuzhe Yang* and Yifei Zhang* and Minghao Wu* and Kaidi Zhang and Yunmiao Zhang and Honghai Yu and Yan Hu and Benyou Wang},
+year={2025},
+eprint={2502.01506},
+archivePrefix={arXiv},
+primaryClass={cs.CE},
+pdf={https://arxiv.org/pdf/2502.01506},
+selected={true},
+code={https://github.com/TobyYang7/TwinMarket},
+preview={TwinMarket.jpg},
+abstract={The study of social emergence has long been a central focus in social science.
+ Traditional modeling approaches, such as rule-based Agent-Based Models (ABMs), struggle to capture the diversity and complexity of human behavior, particularly the irrational factors emphasized in behavioral economics.
+ Recently, large language model (LLM) agents have gained traction as simulation tools for modeling human behavior in social science and role-playing applications.
+ Studies suggest that LLMs can account for cognitive biases, emotional fluctuations, and other non-rational influences, enabling more realistic simulations of socio-economic dynamics.
+ In this work, we introduce TwinMarket, a novel multi-agent framework that leverages LLMs to simulate socio-economic systems. Specifically, we examine how individual behaviors, through interactions and feedback mechanisms, give rise to collective dynamics and emergent phenomena.
+ Through experiments in a simulated stock market environment, we demonstrate how individual actions can trigger group behaviors, leading to emergent outcomes such as financial bubbles and recessions.
+ Our approach provides valuable insights into the complex interplay between individual decision-making and collective socio-economic patterns.},
+note={A multi-agent framework that leverages LLMs to simulate socio-economic systems},
+journal={arXiv preprint},
+selected={true},
+bibtex_show={false},
 }
