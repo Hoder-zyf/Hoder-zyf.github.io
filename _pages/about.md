@@ -31,7 +31,7 @@ social: true # includes social icons at the bottom of the page
 
 *   🎯 **UCFE Benchmark:** I led the creation of the UCFE Benchmark (published at **NAACL Findings 2025**), an innovative dynamic framework using AI simulation (GPT-4o, LLM-as-Judge) to evaluate LLM capabilities in realistic, interactive financial advisory tasks.
 
-*   🤖 **TwinMarket:** I led the TwinMarket project (<span style="color: red; font-weight: bold;">Best Paper Award in Financial AI @ ICLR 2025</span> & selected for **oral** presentation at **ICLR 2025**), engineering a scalable multi-agent simulation framework where LLMs power the reasoning of over 1,000 agents to model complex financial market behaviors and emergent social dynamics.
+*   🤖 **TwinMarket:** I led the TwinMarket project (<span style="color: red; font-weight: bold;">Best Paper Award in Financial AI @ ICLR 2025</span> & selected for **oral** presentation at **ICLR 2025**), engineering a scalable multi-agent simulation framework where LLMs power the reasoning of over **1,000** agents to model complex financial market behaviors and emergent social dynamics.
 
 <div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif;"> You can find more about me here: <span style="color: red; font-weight: bold;"><a href="https://hoder-zyf.github.io/assets/pdf/en-cv-zyf.pdf" style="color: orange">English Resume</a></span> | <span style="color: red; font-weight: bold;"><a href="https://hoder-zyf.github.io/assets/pdf/cn-cv-zyf.pdf" style="color: orange">中文简历</a></span> </div>
 
