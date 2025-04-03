@@ -5,5 +5,5 @@ inline: true
 related_posts: false
 ---
 
-🔬 Excited to start a two-month RA position at [CUHK(SZ)](https://www.cuhk.edu.cn/en) with [Prof. Benyou Wang](https://wabyking.github.io/old.html). 
+🔬 Excited to start a RA position at [CUHK(SZ)](https://www.cuhk.edu.cn/en) with [Prof. Benyou Wang](https://wabyking.github.io/old.html). 
 

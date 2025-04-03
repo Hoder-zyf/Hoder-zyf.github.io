@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:star2: One paper accepted by [The 21st Annual Conference on Financial Engineering and Risk Management](https://conf.ichaos.com.cn/fserm2024/page/1)
+:star2: **One paper accepted by** **[The 21st Annual Conference on Financial Engineering and Risk Management](https://conf.ichaos.com.cn/fserm2024/page/1)**

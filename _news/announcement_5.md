@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:star2: One paper accepted by NAACL Findings 2025. You can find the paper [here](https://arxiv.org/pdf/2410.14059).
+:star2: **One paper accepted by NAACL Findings 2025**. You can find the paper [here](https://arxiv.org/pdf/2410.14059).
