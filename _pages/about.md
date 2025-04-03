@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-:blush: Hi, my name is Yifei Zhang (张逸飞). I am now pursuing a master's degree at [School of Management & Engineering](https://sme.nju.edu.cn/mainm.htm), [Nanjing University](https://www.nju.edu.cn/en), advised by  [Prof. Honghai Yu](https://sme.nju.edu.cn/yhh/list.htm). 
+:blush: Hi, my name is Yifei Zhang (张逸飞). I am now pursuing a master's degree at [School of Management & Engineering](https://sme.nju.edu.cn/mainm.htm), [Nanjing University](https://www.nju.edu.cn/en), advised by [Prof. Honghai Yu](https://sme.nju.edu.cn/yhh/list.htm). 
 
 🎓 I earned my bachelor's degree in Computer Science and Technology, specializing in Computer & Financial Engineering Experimental Class (a Top Talent Program) at [Nanjing University](https://www.nju.edu.cn/en) from [The Department of Computer Science and Technology](https://cs.nju.edu.cn/mainm.htm). 
 
