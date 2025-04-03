@@ -23,3 +23,16 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+
+// --- 在 main.scss 文件底部添加 ---
+
+// My Custom Styles
+
+// Override general text color ONLY for the <strong> tag inside the red-styled span
+.publications .journal span[style*="color: red"] strong {
+  color: red; // Force the color of the <strong> tag inside the specific span to be red
+  // font-style: normal; // Optional: uncomment this if you also want to remove italics from the strong tag
+}
+
+// --- End of custom styles ---
