@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:innocent: **Great Honor to give a talk at Financial AI @ ICLR 2025 and won the <span style="color: red; font-weight: bold;">Best Paper Award</span> (1 out of 53).**
+:innocent: **Great Honor to give a talk at Financial AI @ ICLR 2025 and won the <span style="color: red; font-weight: bold;">Best Paper Award</span> (1 out of 53). You can find the paper [here](https://arxiv.org/abs/2502.01506).**
