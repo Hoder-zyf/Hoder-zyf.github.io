@@ -22,7 +22,7 @@ social: true # includes social icons at the bottom of the page
 
 🎓 I earned my bachelor's degree in Computer Science and Technology, specializing in Computer & Financial Engineering Experimental Class (a Top Talent Program) at [Nanjing University](https://www.nju.edu.cn/en) from [The Department of Computer Science and Technology](https://cs.nju.edu.cn/mainm.htm). 
 
-🔍 I am fortunate to collaborate closely with [Prof. Benyou Wang](https://wabyking.github.io/old.html) on Large Language Model (LLM) research. My research interests focus on Large **Language Models (LLMs)** and their application to various complex domains, with a significant focus currently in **Finance**.
+🔍 I am now interned at [MSRA-Beijing](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/), advised by [Xiao Yang](https://www.microsoft.com/en-us/research/people/xiaoyang/) and I have been fortunate to collaborate closely with [Prof. Benyou Wang](https://wabyking.github.io/old.html). My research interests focus on LLMs application to various complex domains, with a significant focus on **Finance**.
 
 
 **Key Project Highlights:** ✨
