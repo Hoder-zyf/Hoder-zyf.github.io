@@ -52,25 +52,31 @@ nav_order: 2
             let shouldShow = false;
 
             if (filter === 'computer science') {
-              // Show papers that have both CS and Finance keywords (interdisciplinary)
-              shouldShow = (pubContent.includes('computer science') || 
-                           pubContent.includes('naacl') || 
-                           pubContent.includes('iclr') || 
-                           pubContent.includes('llm') ||
-                           pubContent.includes('language model') ||
-                           pubContent.includes('benchmark') ||
-                           pubContent.includes('multimodal')) && 
-                           pubContent.includes('finance');
+              // Show CS & Finance interdisciplinary papers
+              const hasCSKeywords = pubContent.includes('computer science') ||
+                                   pubContent.includes('naacl') ||
+                                   pubContent.includes('iclr') ||
+                                   pubContent.includes('llm') ||
+                                   pubContent.includes('language model') ||
+                                   pubContent.includes('benchmark') ||
+                                   pubContent.includes('multimodal') ||
+                                   pubContent.includes('finllm') ||
+                                   pubContent.includes('ucfe') ||
+                                   pubContent.includes('twinmarket');
+              shouldShow = hasCSKeywords;
             } else if (filter === 'finance-only') {
-              // Show papers that have Finance but NOT Computer Science keywords
-              shouldShow = pubContent.includes('finance') && 
-                          !pubContent.includes('computer science') &&
-                          !pubContent.includes('naacl') &&
-                          !pubContent.includes('iclr') &&
-                          !pubContent.includes('llm') &&
-                          !pubContent.includes('language model') &&
-                          !pubContent.includes('benchmark') &&
-                          !pubContent.includes('multimodal');
+              // Show finance-only papers (exclude CS+Finance interdisciplinary)
+              const hasCSKeywords = pubContent.includes('computer science') ||
+                                   pubContent.includes('naacl') ||
+                                   pubContent.includes('iclr') ||
+                                   pubContent.includes('llm') ||
+                                   pubContent.includes('language model') ||
+                                   pubContent.includes('benchmark') ||
+                                   pubContent.includes('multimodal') ||
+                                   pubContent.includes('finllm') ||
+                                   pubContent.includes('ucfe') ||
+                                   pubContent.includes('twinmarket');
+              shouldShow = pubContent.includes('finance') && !hasCSKeywords;
             }
 
             pub.style.display = shouldShow ? 'block' : 'none';

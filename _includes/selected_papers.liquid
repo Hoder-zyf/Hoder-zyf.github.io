@@ -38,24 +38,31 @@
 
             if (filter === 'computer science') {
               // Show CS & Finance interdisciplinary papers
-              shouldShow = (pubContent.includes('computer science') ||
-                           pubContent.includes('naacl') ||
-                           pubContent.includes('iclr') ||
-                           pubContent.includes('llm') ||
-                           pubContent.includes('language model') ||
-                           pubContent.includes('benchmark') ||
-                           pubContent.includes('multimodal')) && 
-                           pubContent.includes('finance');
+              // Check if paper contains CS-related keywords
+              const hasCSKeywords = pubContent.includes('computer science') ||
+                                   pubContent.includes('naacl') ||
+                                   pubContent.includes('iclr') ||
+                                   pubContent.includes('llm') ||
+                                   pubContent.includes('language model') ||
+                                   pubContent.includes('benchmark') ||
+                                   pubContent.includes('multimodal') ||
+                                   pubContent.includes('finllm') ||
+                                   pubContent.includes('ucfe') ||
+                                   pubContent.includes('twinmarket');
+              shouldShow = hasCSKeywords;
             } else if (filter === 'finance') {
               // Show finance-only papers (exclude CS+Finance interdisciplinary)
-              shouldShow = pubContent.includes('finance') &&
-                          !pubContent.includes('computer science') &&
-                          !pubContent.includes('naacl') &&
-                          !pubContent.includes('iclr') &&
-                          !pubContent.includes('llm') &&
-                          !pubContent.includes('language model') &&
-                          !pubContent.includes('benchmark') &&
-                          !pubContent.includes('multimodal');
+              const hasCSKeywords = pubContent.includes('computer science') ||
+                                   pubContent.includes('naacl') ||
+                                   pubContent.includes('iclr') ||
+                                   pubContent.includes('llm') ||
+                                   pubContent.includes('language model') ||
+                                   pubContent.includes('benchmark') ||
+                                   pubContent.includes('multimodal') ||
+                                   pubContent.includes('finllm') ||
+                                   pubContent.includes('ucfe') ||
+                                   pubContent.includes('twinmarket');
+              shouldShow = pubContent.includes('finance') && !hasCSKeywords;
             }
 
             pub.style.display = shouldShow ? 'block' : 'none';
