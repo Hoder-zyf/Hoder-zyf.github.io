@@ -1,10 +1,11 @@
 <div class="news">
   {% if site.news != blank %}
     {% assign news_size = site.news | size %}
+    <!-- Debug: news_size={{ news_size }}, limit={{ site.announcements.limit }}, scrollable={{ site.announcements.scrollable }}, include.limit={{ include.limit }} -->
     <div
       class="table-responsive"
-      {% if site.announcements.scrollable and include.limit and news_size > site.announcements.limit %}
-        style="max-height: 40vh; overflow-y: auto;"
+      {% if include.limit %}
+        style="max-height: 200px; overflow-y: auto; border: 1px solid #dee2e6; border-radius: 0.375rem;"
       {% endif %}
     >
       <table class="table table-sm table-borderless">
