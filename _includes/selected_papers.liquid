@@ -1,8 +1,14 @@
 <!-- Keyword Filter Buttons -->
 <div class="keyword-filter-buttons mb-3">
-  <button class="btn btn-sm btn-outline-primary active" data-filter="all">All</button>
-  <button class="btn btn-sm btn-outline-primary" data-filter="computer science">Computer Science</button>
-  <button class="btn btn-sm btn-outline-primary" data-filter="finance">Finance</button>
+  <button class="filter-btn active" data-filter="all">
+    <i class="fas fa-star"></i> All
+  </button>
+  <button class="filter-btn" data-filter="computer science">
+    <i class="fas fa-laptop-code"></i> CS & Finance
+  </button>
+  <button class="filter-btn" data-filter="finance">
+    <i class="fas fa-chart-line"></i> Finance Only
+  </button>
 </div>
 
 <div class="publications" id="selected-publications">
@@ -11,7 +17,7 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const filterButtons = document.querySelectorAll('.keyword-filter-buttons button');
+    const filterButtons = document.querySelectorAll('.keyword-filter-buttons .filter-btn');
     const publications = document.querySelectorAll('#selected-publications .bibliography li');
 
     filterButtons.forEach((button) => {
@@ -28,28 +34,31 @@
             pub.style.display = 'block';
           } else {
             const pubContent = pub.textContent.toLowerCase();
-            let hasKeyword = false;
+            let shouldShow = false;
 
             if (filter === 'computer science') {
-              // Check for CS-related keywords
-              hasKeyword =
-                pubContent.includes('computer science') ||
-                pubContent.includes('naacl') ||
-                pubContent.includes('iclr') ||
-                pubContent.includes('llm') ||
-                pubContent.includes('language model') ||
-                pubContent.includes('benchmark') ||
-                pubContent.includes('multimodal');
+              // Show CS & Finance interdisciplinary papers
+              shouldShow = (pubContent.includes('computer science') ||
+                           pubContent.includes('naacl') ||
+                           pubContent.includes('iclr') ||
+                           pubContent.includes('llm') ||
+                           pubContent.includes('language model') ||
+                           pubContent.includes('benchmark') ||
+                           pubContent.includes('multimodal')) && 
+                           pubContent.includes('finance');
             } else if (filter === 'finance') {
-              // Check for finance-only papers (exclude CS+Finance interdisciplinary)
-              hasKeyword =
-                pubContent.includes('finance') &&
-                !pubContent.includes('computer science') &&
-                !pubContent.includes('llm') &&
-                !pubContent.includes('language model');
+              // Show finance-only papers (exclude CS+Finance interdisciplinary)
+              shouldShow = pubContent.includes('finance') &&
+                          !pubContent.includes('computer science') &&
+                          !pubContent.includes('naacl') &&
+                          !pubContent.includes('iclr') &&
+                          !pubContent.includes('llm') &&
+                          !pubContent.includes('language model') &&
+                          !pubContent.includes('benchmark') &&
+                          !pubContent.includes('multimodal');
             }
 
-            pub.style.display = hasKeyword ? 'block' : 'none';
+            pub.style.display = shouldShow ? 'block' : 'none';
           }
         });
       });

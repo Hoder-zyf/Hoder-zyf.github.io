@@ -15,34 +15,25 @@ nav_order: 2
 
 <!-- Keyword Filter Buttons -->
 <div class="keyword-filter-buttons mb-4">
-  <button class="btn btn-sm btn-outline-primary active" data-filter="all">All Publications</button>
-  <button class="btn btn-sm btn-outline-primary" data-filter="computer science">Computer Science & Finance</button>
-  <button class="btn btn-sm btn-outline-primary" data-filter="finance-only">Finance Only</button>
+  <button class="filter-btn active" data-filter="all">
+    <i class="fas fa-list"></i> All Publications
+  </button>
+  <button class="filter-btn" data-filter="computer science">
+    <i class="fas fa-laptop-code"></i> CS & Finance
+  </button>
+  <button class="filter-btn" data-filter="finance-only">
+    <i class="fas fa-chart-line"></i> Finance Only
+  </button>
 </div>
 
 <div class="publications" id="all-publications">
-  <!-- All Publications (default view) -->
-  <div class="publication-group" data-category="all">
-    {% bibliography %}
-  </div>
-  
-  <!-- Computer Science & Finance (Interdisciplinary) -->
-  <div class="publication-group" data-category="computer science" style="display: none;">
-    <h2 class="category">Computer Science & Finance</h2>
-    {% bibliography --query @*[keywords ~= computer science] %}
-  </div>
-
-  <!-- Finance Only -->
-  <div class="publication-group" data-category="finance-only" style="display: none;">
-    <h2 class="category">Finance</h2>
-    {% bibliography --query @*[keywords ~= finance][keywords !~= computer science] %}
-  </div>
+  {% bibliography %}
 </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const filterButtons = document.querySelectorAll('.keyword-filter-buttons button');
-    const publicationGroups = document.querySelectorAll('.publication-group');
+    const filterButtons = document.querySelectorAll('.keyword-filter-buttons .filter-btn');
+    const publications = document.querySelectorAll('#all-publications .bibliography li');
 
     filterButtons.forEach((button) => {
       button.addEventListener('click', function () {
@@ -53,17 +44,38 @@ nav_order: 2
 
         const filter = this.getAttribute('data-filter');
 
-        // Hide all groups first
-        publicationGroups.forEach((group) => {
-          group.style.display = 'none';
-        });
+        publications.forEach((pub) => {
+          if (filter === 'all') {
+            pub.style.display = 'block';
+          } else {
+            const pubContent = pub.textContent.toLowerCase();
+            let shouldShow = false;
 
-        // Show the selected group
-        if (filter === 'all') {
-          document.querySelector('[data-category="all"]').style.display = 'block';
-        } else {
-          document.querySelector(`[data-category="${filter}"]`).style.display = 'block';
-        }
+            if (filter === 'computer science') {
+              // Show papers that have both CS and Finance keywords (interdisciplinary)
+              shouldShow = (pubContent.includes('computer science') || 
+                           pubContent.includes('naacl') || 
+                           pubContent.includes('iclr') || 
+                           pubContent.includes('llm') ||
+                           pubContent.includes('language model') ||
+                           pubContent.includes('benchmark') ||
+                           pubContent.includes('multimodal')) && 
+                           pubContent.includes('finance');
+            } else if (filter === 'finance-only') {
+              // Show papers that have Finance but NOT Computer Science keywords
+              shouldShow = pubContent.includes('finance') && 
+                          !pubContent.includes('computer science') &&
+                          !pubContent.includes('naacl') &&
+                          !pubContent.includes('iclr') &&
+                          !pubContent.includes('llm') &&
+                          !pubContent.includes('language model') &&
+                          !pubContent.includes('benchmark') &&
+                          !pubContent.includes('multimodal');
+            }
+
+            pub.style.display = shouldShow ? 'block' : 'none';
+          }
+        });
       });
     });
   });

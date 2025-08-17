@@ -36,28 +36,84 @@ span[style*="color: red"] strong {
 }
 
 // --- End of custom styles ---
-/* Cust
-om styles for keyword filter buttons */
+
+/* Custom styles for keyword filter buttons */
 .keyword-filter-buttons {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
   margin-bottom: 1.5rem;
+  flex-wrap: wrap;
 }
 
-.keyword-filter-buttons .btn {
-  margin: 0 0.25rem 0.5rem 0.25rem;
-  border-radius: 20px;
-  transition: all 0.3s ease;
+.filter-btn {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 2px solid #dee2e6;
+  color: #495057;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
 }
 
-.keyword-filter-buttons .btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+.filter-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  transition: left 0.5s;
 }
 
-.keyword-filter-buttons .btn.active {
-  background-color: var(--global-theme-color);
+.filter-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.filter-btn:hover::before {
+  left: 100%;
+}
+
+.filter-btn.active {
+  background: linear-gradient(135deg, var(--global-theme-color) 0%, #0056b3 100%);
   border-color: var(--global-theme-color);
   color: white;
+  box-shadow: 0 4px 12px rgba(0,123,255,0.3);
+}
+
+.filter-btn.active:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0,123,255,0.4);
+}
+
+.filter-btn i {
+  font-size: 0.875rem;
+}
+
+/* Responsive design for filter buttons */
+@media (max-width: 768px) {
+  .keyword-filter-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .filter-btn {
+    width: 200px;
+    justify-content: center;
+  }
 }
 
 /* Smooth transitions for publication filtering */
@@ -108,4 +164,62 @@ om styles for keyword filter buttons */
 
 .table-responsive::-webkit-scrollbar-thumb:hover {
   background: var(--global-theme-color-dark);
+}
+/* 
+Enhanced publication filtering animations */
+.publications li {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 1;
+  transform: translateY(0);
+  margin-bottom: 1rem;
+}
+
+.publications li[style*="display: none"] {
+  opacity: 0;
+  transform: translateY(-20px);
+  margin-bottom: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+/* Improve the overall publications layout */
+.publications {
+  position: relative;
+}
+
+/* Add a subtle loading effect when filtering */
+.publications.filtering {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* Category headers styling */
+h2.category {
+  color: var(--global-theme-color);
+  border-bottom: 2px solid var(--global-theme-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+/* Improve spacing between filter buttons and content */
+.keyword-filter-buttons + .publications {
+  margin-top: 2rem;
+}
+
+/* Dark mode support for filter buttons */
+html[data-theme="dark"] .filter-btn {
+  background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
+  border-color: #4a5568;
+  color: #e2e8f0;
+}
+
+html[data-theme="dark"] .filter-btn:hover {
+  border-color: var(--global-theme-color);
+  box-shadow: 0 4px 12px rgba(0,123,255,0.2);
+}
+
+html[data-theme="dark"] .filter-btn.active {
+  background: linear-gradient(135deg, var(--global-theme-color) 0%, #0056b3 100%);
+  color: white;
 }
