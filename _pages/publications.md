@@ -76,7 +76,15 @@ nav_order: 2
                                    pubContent.includes('finllm') ||
                                    pubContent.includes('ucfe') ||
                                    pubContent.includes('twinmarket');
-              shouldShow = pubContent.includes('finance') && !hasCSKeywords;
+              // Check if paper has finance keywords but not CS keywords
+              const hasFinanceKeywords = pubContent.includes('finance') ||
+                                        pubContent.includes('financial') ||
+                                        pubContent.includes('stock') ||
+                                        pubContent.includes('market') ||
+                                        pubContent.includes('investment') ||
+                                        pubContent.includes('trading') ||
+                                        pubContent.includes('economic');
+              shouldShow = hasFinanceKeywords && !hasCSKeywords;
             }
 
             pub.style.display = shouldShow ? 'block' : 'none';
