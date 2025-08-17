@@ -15,6 +15,16 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+<!-- Computer Science & Finance (Interdisciplinary) -->
+<h2 class="category">Computer Science & Finance</h2>
+<div class="publications">
+{% bibliography --query @*[keywords ~= computer science] %}
+</div>
+
+<!-- Finance Only -->
+<h2 class="category">Finance</h2>
+<div class="publications">
+{% bibliography --query @*[keywords ~= finance][keywords !~= computer science] %}
+</div>
 
 </div>
