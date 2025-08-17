@@ -9,3 +9,32 @@ assets/plotly/demo.html
 lighthouse_results/**
 _posts/2015-10-20-math.md
 _sass/font-awesome/*.scss
+
+# Ignore files that don't need formatting or cause issues
+_bibliography/*.bib
+_data/*.yml
+_layouts/*.liquid
+_includes/cv/*.liquid
+_includes/resume/*.liquid
+_includes/repository/*.liquid
+_includes/scripts/*.liquid
+_sass/*.scss
+_sass/**/*.scss
+assets/js/*.js
+assets/css/*.css
+assets/html/*.html
+assets/json/*.json
+.all-contributorsrc
+.devcontainer/*.json
+.github/**/*.yml
+.github/**/*.yaml
+docker-compose*.yml
+purgecss.config.js
+package-lock.json
+
+# Keep only the files we actively maintain
+!_includes/selected_papers.liquid
+!_includes/news.liquid
+!_pages/publications.md
+!_config.yml
+!package.json

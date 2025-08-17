@@ -1,3 +1,58 @@
-<div class="publications">
+<!-- Keyword Filter Buttons -->
+<div class="keyword-filter-buttons mb-3">
+  <button class="btn btn-sm btn-outline-primary active" data-filter="all">All</button>
+  <button class="btn btn-sm btn-outline-primary" data-filter="computer science">Computer Science</button>
+  <button class="btn btn-sm btn-outline-primary" data-filter="finance">Finance</button>
+</div>
+
+<div class="publications" id="selected-publications">
   {% bibliography --group_by none --query @*[selected=true]* %}
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const filterButtons = document.querySelectorAll('.keyword-filter-buttons button');
+    const publications = document.querySelectorAll('#selected-publications .bibliography li');
+
+    filterButtons.forEach((button) => {
+      button.addEventListener('click', function () {
+        // Remove active class from all buttons
+        filterButtons.forEach((btn) => btn.classList.remove('active'));
+        // Add active class to clicked button
+        this.classList.add('active');
+
+        const filter = this.getAttribute('data-filter');
+
+        publications.forEach((pub) => {
+          if (filter === 'all') {
+            pub.style.display = 'block';
+          } else {
+            const pubContent = pub.textContent.toLowerCase();
+            let hasKeyword = false;
+
+            if (filter === 'computer science') {
+              // Check for CS-related keywords
+              hasKeyword =
+                pubContent.includes('computer science') ||
+                pubContent.includes('naacl') ||
+                pubContent.includes('iclr') ||
+                pubContent.includes('llm') ||
+                pubContent.includes('language model') ||
+                pubContent.includes('benchmark') ||
+                pubContent.includes('multimodal');
+            } else if (filter === 'finance') {
+              // Check for finance-only papers (exclude CS+Finance interdisciplinary)
+              hasKeyword =
+                pubContent.includes('finance') &&
+                !pubContent.includes('computer science') &&
+                !pubContent.includes('llm') &&
+                !pubContent.includes('language model');
+            }
+
+            pub.style.display = hasKeyword ? 'block' : 'none';
+          }
+        });
+      });
+    });
+  });
+</script>

@@ -36,3 +36,76 @@ span[style*="color: red"] strong {
 }
 
 // --- End of custom styles ---
+/* Cust
+om styles for keyword filter buttons */
+.keyword-filter-buttons {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.keyword-filter-buttons .btn {
+  margin: 0 0.25rem 0.5rem 0.25rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.keyword-filter-buttons .btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.keyword-filter-buttons .btn.active {
+  background-color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+  color: white;
+}
+
+/* Smooth transitions for publication filtering */
+.publications li {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.publications li[style*="display: none"] {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+/* News section improvements */
+.news .table-responsive {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.news table {
+  margin-bottom: 0;
+}
+
+.news th {
+  font-weight: 600;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+
+.news td {
+  border-top: 1px solid var(--global-divider-color);
+  padding: 0.75rem 0.5rem;
+}
+
+/* Scrollbar styling for news */
+.table-responsive::-webkit-scrollbar {
+  width: 6px;
+}
+
+.table-responsive::-webkit-scrollbar-track {
+  background: var(--global-bg-color);
+  border-radius: 3px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background: var(--global-theme-color);
+  border-radius: 3px;
+}
+
+.table-responsive::-webkit-scrollbar-thumb:hover {
+  background: var(--global-theme-color-dark);
+}
