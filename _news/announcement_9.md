@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎓 Honored to have one paper selected as the **Outstanding Papers** for the 7th Conference of the Chinese Society of Optimization, Overall Planning, and Economic Mathematics
+🎓 **Honored to have one paper selected as the <span style="color: red; font-weight: bold;">Outstanding Paper Award</span> for the 7th Conference of the Chinese Society of Optimization, Overall Planning, and Economic Mathematics.**
