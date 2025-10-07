@@ -33,7 +33,7 @@ social: true # includes social icons at the bottom of the page
 
 *   🤖 **TwinMarket:** I led the TwinMarket project (**NeurIPS 2025** & <span style="color: red; font-weight: bold;">Best Paper Award</span> in Financial AI @ ICLR 2025), engineering a scalable multi-agent simulation framework where LLMs power the reasoning of over **1,000** agents to model complex financial market behaviors and emergent social dynamics.
 
-*   🔬 **RD-Agent:** As a core contributor, I helped develop **[RD-Agent](https://github.com/microsoft/RD-Agent)**, an open-source autonomous R&D framework that has led as the top-performing ML engineering agent on MLE-bench and has earned over <span style="color: red; font-weight: bold;">7800+ stars</span> on GitHub.
+*   🔬 **RD-Agent:** As a core contributor, I helped develop **[RD-Agent](https://github.com/microsoft/RD-Agent)**, an open-source autonomous R&D framework that has led as the top-performing ML engineering agent on MLE-bench and has earned over <span style="color: red; font-weight: bold;">8000+ stars</span> on GitHub.
 
 <div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif;"> You can find more about me here: <span style="color: red; font-weight: bold;"><a href="https://hoder-zyf.github.io/assets/pdf/en-cv-zyf.pdf" style="color: orange">English Resume</a></span> | <span style="color: red; font-weight: bold;"><a href="https://hoder-zyf.github.io/assets/pdf/cn-cv-zyf.pdf" style="color: orange">中文简历</a></span> </div>
 
