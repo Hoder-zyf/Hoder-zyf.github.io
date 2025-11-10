@@ -27,13 +27,15 @@ social: true # includes social icons at the bottom of the page
 
 **Key Project Highlights:** ✨
 
-*   📊 **Open-FinLLMs:** As a core contributor, I helped develop and **open-source** FinLLaVA-8B, the **first** multi-modal LLM specifically engineered to understand complex financial documents including tables and charts, achieving great performance for open models at the time.
-
 *   🎯 **UCFE Benchmark:** I led the creation of the UCFE Benchmark (published at **NAACL Findings 2025**), an innovative dynamic framework using AI simulation (GPT-4o, LLM-as-Judge) to evaluate LLM capabilities in realistic, interactive financial advisory tasks.
 
 *   🤖 **TwinMarket:** I led the TwinMarket project (**NeurIPS 2025** & <span style="color: red; font-weight: bold;">Best Paper Award</span> in Financial AI @ ICLR 2025), engineering a scalable multi-agent simulation framework where LLMs power the reasoning of over **1,000** agents to model complex financial market behaviors and emergent social dynamics.
 
-*   🔬 **RD-Agent:** As a core contributor, I helped develop **[RD-Agent](https://github.com/microsoft/RD-Agent)**, an open-source autonomous R&D framework that has led as the top-performing ML engineering agent on MLE-bench and has earned over <span style="color: red; font-weight: bold;">8000+ stars</span> on GitHub.
+*   🔬 **RD-Agent:** As a core contributor at **MSRA**, I helped develop **[RD-Agent](https://github.com/microsoft/RD-Agent)**, an open-source autonomous R&D framework that has led as the top-performing ML engineering agent on MLE-bench and has earned over <span style="color: red; font-weight: bold;">9,000+ stars</span> on GitHub.
+
+*   📈 **AI-Trader:** As the project leader working closely with **[HKUDS Group](https://github.com/HKUDS)**, I independently implemented the **A-share market module** for **[AI-Trader](https://github.com/HKUDS/AI-Trader)** (earning over <span style="color: red; font-weight: bold;">9,000+ stars</span> on GitHub), extending the original US equity framework to support Chinese stock market trading logic, including T+1 settlement, price limit mechanisms, and A-share-specific trading rules.
+
+
 
 <div style="font-size: medium; text-align: center; font-family: 'Arial', sans-serif;"> You can find more about me here: <span style="color: red; font-weight: bold;"><a href="https://hoder-zyf.github.io/assets/pdf/en-cv-zyf.pdf" style="color: orange">English Resume</a></span> | <span style="color: red; font-weight: bold;"><a href="https://hoder-zyf.github.io/assets/pdf/cn-cv-zyf.pdf" style="color: orange">中文简历</a></span> </div>
 
